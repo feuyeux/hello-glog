@@ -1,0 +1,4 @@
+"""
+This module sets up the dependency for Google glog.
+"""
+bazel_dep(name = "glog", version = "0.7.1", repo_name = "com_github_google_glog")
